@@ -1,4 +1,4 @@
-/* our custom CSS file*/ 
+/* Existing styles */
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
@@ -15,4 +15,10 @@
 
 .hidden-item {
   display: none;
+}
+
+/* New styles for pointer cursor */
+.all-games li, 
+.my-favourite-games li {
+  cursor: pointer;
 }
